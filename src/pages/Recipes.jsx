@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import RecipeList from "../components/RecipeList";
-import API_CONFIG from "../config";
+import API_CONFIG from "../utils/config";
 
 const Recipes = () => {
   const [recipes, setRecipes] = useState([]);
@@ -16,12 +16,8 @@ const Recipes = () => {
         throw new Error("Error fetching data");
       }
       const data = await response.json();
-
-      // Verificamos que searchResults exista y tenga resultados válidos
-      const products = data.searchResults?.find(
-        (result) => result.name === "Products"
-      );
-      setRecipes(products?.results || []);
+      setRecipes(data["recipes"]);
+      console.log(data["recipes"]);
     } catch (err) {
       setError(err.message);
     } finally {
@@ -38,7 +34,8 @@ const Recipes = () => {
       <h1>Recipes</h1>
       {loading && <p>Loading...</p>}
       {error && <p>Error: {error}</p>}
-      {!loading && !error && <RecipeList recipes={recipes} />}
+      {!loading && !error && <RecipeList recipes={recipes}/>}
+      
     </div>
   );
 };
