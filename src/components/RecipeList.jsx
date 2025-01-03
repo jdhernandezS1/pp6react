@@ -1,9 +1,10 @@
 import React from "react";
 import RecipeCard from "./RecipeCard";
+import style  from "../styles/recipes/recipeGrid.module.css"
 
 const RecipeList = ({ recipes }) => {
   return (
-    <div className="recipe-list">
+    <div className={style.recipesGrid}>
       {recipes.map((recipe) => (
         <RecipeCard key={recipe.id} recipe={recipe} />
       ))}

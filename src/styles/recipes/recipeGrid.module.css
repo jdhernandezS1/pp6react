@@ -1,0 +1,8 @@
+.recipesGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, var(--pictures-size));
+    gap: 50px;
+    padding: 10px;
+    justify-content: center;
+    margin: 100px 0
+}

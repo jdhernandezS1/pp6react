@@ -1,0 +1,26 @@
+:root {
+    --pictures-size: 350px;
+}
+
+.recipeCard {
+    list-style: none;
+    text-align: center;
+    width: auto;
+
+}
+
+.recipeCard:hover {
+    box-shadow:1px 1px 1px 1px black;
+    border-radius: 3%;
+
+}
+
+.recipeCard img {
+    height: fit-content;
+    border-radius: 3%;
+    width: var(--pictures-size);
+}
+
+.recipeCard a{
+    text-decoration: none;
+}
