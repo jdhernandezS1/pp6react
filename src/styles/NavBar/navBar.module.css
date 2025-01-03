@@ -1,0 +1,31 @@
+:root{
+    --nav-bar-text-color:#000000;
+    --nar-bar-bg-color:#d79922;
+}
+
+
+.navBar nav {
+    background-color:var(--nar-bar-bg-color) ;
+    padding: 10px;
+}
+
+.navBar nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 15px;
+}
+
+.navBar nav ul li {
+    display: inline;
+}
+
+.navBar nav ul li a {
+    text-decoration: none;
+    color: var(--nav-bar-text-color);
+}
+
+.navBar nav ul li a:hover {
+    text-decoration: underline;
+}
