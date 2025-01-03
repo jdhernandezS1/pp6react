@@ -1,0 +1,10 @@
+:root{
+    --background-color-body:#FFF2D7;
+}
+
+.Main{
+    width:100vw;
+    height: 100vw;
+    background-color: var(--background-color-body);
+    padding-top: 1px;
+}
