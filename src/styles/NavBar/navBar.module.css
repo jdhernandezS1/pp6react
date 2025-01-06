@@ -2,9 +2,12 @@
     --nav-bar-text-color: #000000;
     --nar-bar-bg-color: #F98866;
     --background-color-body: #FFF2D7;
+    --title-size:5vw;
 }
 
-.navBar {}
+.navBar {
+    font-size: x-large;
+}
 
 .navBar h1 {
     /* background-color: var(--background-color-body); */
@@ -14,7 +17,7 @@
 
 .navBar nav {
     background-color: var(--nar-bar-bg-color);
-    padding: 1px 10%;
+    padding: 10px 10%;
 }
 
 .navBar nav ul {
@@ -40,13 +43,13 @@
     text-decoration: underline;
 }
 .TitleOne{
-    font-size: xx-large;
-    color: var(--nar-bar-bg-color);
+    font-size: var(--title-size);
+    color: var(--nav-bar-text-color);
     text-transform: capitalize;
 }
 .TitleTwo{
-    font-size: xx-large;
-    color: var(--nar-bar-bg-color);
+    font-size: var(--title-size);
+    color: var(--nav-bar-text-color);
     text-transform:uppercase;
 }
 .Title{
