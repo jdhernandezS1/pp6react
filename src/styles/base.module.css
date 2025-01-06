@@ -4,7 +4,7 @@
 
 .Main{
     /* width:100%; */
-    height: 100vw;
+    min-height: 120vw;
     background-color: var(--background-color-body);
     padding: 1px 10%;
 }
