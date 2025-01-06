@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/pp6react/static/css/main.eaac269f.css",
+    "main.js": "/pp6react/static/js/main.8449b35d.js",
+    "index.html": "/pp6react/index.html",
+    "main.eaac269f.css.map": "/pp6react/static/css/main.eaac269f.css.map",
+    "main.8449b35d.js.map": "/pp6react/static/js/main.8449b35d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eaac269f.css",
+    "static/js/main.8449b35d.js"
+  ]
+}
