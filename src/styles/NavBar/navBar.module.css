@@ -1,12 +1,20 @@
-:root{
-    --nav-bar-text-color:#000000;
-    --nar-bar-bg-color:#F98866;
+:root {
+    --nav-bar-text-color: #000000;
+    --nar-bar-bg-color: #F98866;
+    --background-color-body: #FFF2D7;
 }
 
+.navBar {}
+
+.navBar h1 {
+    /* background-color: var(--background-color-body); */
+    margin: 0px auto;
+    padding: 10px 0px;
+}
 
 .navBar nav {
-    background-color:var(--nar-bar-bg-color) ;
-    padding: 10px;
+    background-color: var(--nar-bar-bg-color);
+    padding: 1px 10%;
 }
 
 .navBar nav ul {
@@ -15,6 +23,8 @@
     padding: 0;
     margin: 0;
     gap: 15px;
+    margin: var(--margin-general);
+
 }
 
 .navBar nav ul li {
@@ -28,4 +38,19 @@
 
 .navBar nav ul li a:hover {
     text-decoration: underline;
+}
+.TitleOne{
+    font-size: xx-large;
+    color: var(--nar-bar-bg-color);
+    text-transform: capitalize;
+}
+.TitleTwo{
+    font-size: xx-large;
+    color: var(--nar-bar-bg-color);
+    text-transform:uppercase;
+}
+.Title{
+    background-color: var(--background-color-body);
+    padding: 15px 10%;
+    margin: 0px;
 }
