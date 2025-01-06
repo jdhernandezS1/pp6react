@@ -1,5 +1,6 @@
 :root {
-    --pictures-size: 350px;
+    --pictures-size-normal: 350px;
+    --pictures-size-phone:300px;
 }
 
 .recipeCard {
@@ -18,9 +19,17 @@
 .recipeCard img {
     height: fit-content;
     border-radius: 3%;
-    width: var(--pictures-size);
+    width: var(--pictures-size-normal);
 }
 
 .recipeCard a{
     text-decoration: none;
+}
+
+@media screen  and (max-width: 600px){
+
+.recipeCard img {
+    width: var(--pictures-size-phone);
+}
+    
 }
