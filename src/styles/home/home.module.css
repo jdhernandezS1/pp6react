@@ -1,0 +1,12 @@
+.home-title{
+    color: var(--title-three-color);
+    /* -webkit-text-stroke: 1px var(--title-border-color);  */
+    background-color:transparent;
+    
+}
+.first-section{
+    background-color: var(--background-color-body);
+}
+@media screen and (max-width: 600px) {
+
+}

@@ -1,7 +1,9 @@
 .trainer-page {
     padding: 0px;
-    /* max-width: 600px; */
+    background-color: var(--background-color-body);
     margin: auto;
+    border-radius: 3%;
+    padding: 3%;
 }
 
 .trainer-page form {
