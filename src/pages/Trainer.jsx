@@ -31,6 +31,7 @@ const Trainer = () => {
 
     return (
         <div className={styles["trainer-page"]}>
+            <hr className={styles.banner}/>
             <h2>Trainer Page</h2>
 
             <section>
