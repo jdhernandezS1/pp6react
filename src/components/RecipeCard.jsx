@@ -4,7 +4,7 @@ import styles from '../styles/recipes/recipeCard.module.css'; // Import css modu
 
 const RecipeCard = ({ recipe }) => {
     return (
-        <div className={styles.recipeCard}>
+        <div className={styles["recipe-card"]}>
             <a href={recipe.sourceUrl} target="blank">
             <h3>{recipe.title}</h3>
             <img src={recipe.image} alt={recipe.title} />

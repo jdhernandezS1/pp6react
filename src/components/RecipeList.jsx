@@ -4,7 +4,7 @@ import style  from "../styles/recipes/recipeGrid.module.css"
 
 const RecipeList = ({ recipes }) => {
   return (
-    <div className={style.recipesGrid}>
+    <div className={style["recipes-grid"]}>
       {recipes.map((recipe) => (
         <RecipeCard key={recipe.id} recipe={recipe} />
       ))}
