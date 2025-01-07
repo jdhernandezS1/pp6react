@@ -2,7 +2,8 @@
     min-height: var(--min-size-big-screen);
     background-color: var(--background-color-body);
     background-image: url("../../statics/banners/trainer.webp");
-    background-size:auto;
+    background-size:cover;
+    background-position: center;
     padding: 1px 10%;
 }
 
