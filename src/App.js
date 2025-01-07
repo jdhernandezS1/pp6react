@@ -17,8 +17,8 @@ const App = () => {
             <RoutesList />
           </div>
         </main>
+        <Footer />
       </Router>
-      <Footer />
     </>
   );
 };

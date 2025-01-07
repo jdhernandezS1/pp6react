@@ -1,5 +1,5 @@
 import React from "react";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
     return (
@@ -9,7 +9,7 @@ const Footer = () => {
                     <h2>Tu Empresa</h2>
                     <p>&copy; 2025 Todos los derechos reservados</p>
                 </div>
-                {/* <div className="footer-links">
+                <div className="footer-links">
                     <h3>Links</h3>
                     <ul>
                         <li><Link to="/">Inicio</Link></li>
@@ -17,7 +17,7 @@ const Footer = () => {
                         <li><Link to="trainer">trainer</Link></li>
                         <li><Link to="trainer">trainer</Link></li>
                     </ul>
-                </div> */}
+                </div>
                 <div className="footer-social">
                     <h3>Conéctate</h3>
                     <div className="social-icons">
