@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 const NavBar = () => {
     return (
         <>
-            <p className={Style.Title}><span className={Style.TitleOne}>Fit </span><span className={Style.TitleTwo}> | world</span></p>
-            <div className={Style.navBar}>
+            <p className={Style["title"]}><span className={Style["title-one"]}>Fit </span><span className={Style["title-two"]}> | world</span></p>
+            <div className={Style["nav-bar"]}>
                 <nav>
                     <ul>
                         <li>

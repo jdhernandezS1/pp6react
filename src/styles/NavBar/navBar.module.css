@@ -5,22 +5,22 @@
     --title-size:5vw;
 }
 
-.navBar {
+.nav-bar {
     font-size: x-large;
 }
 
-.navBar h1 {
+.nav-bar h1 {
     /* background-color: var(--background-color-body); */
     margin: 0px auto;
     padding: 10px 0px;
 }
 
-.navBar nav {
+.nav-bar nav {
     background-color: var(--nar-bar-bg-color);
     padding: 10px 10%;
 }
 
-.navBar nav ul {
+.nav-bar nav ul {
     display: flex;
     list-style: none;
     padding: 0;
@@ -30,29 +30,29 @@
 
 }
 
-.navBar nav ul li {
+.nav-bar nav ul li {
     display: inline;
 }
 
-.navBar nav ul li a {
+.nav-bar nav ul li a {
     text-decoration: none;
     color: var(--nav-bar-text-color);
 }
 
-.navBar nav ul li a:hover {
+.nav-bar nav ul li a:hover {
     text-decoration: underline;
 }
-.TitleOne{
+.title-one{
     font-size: var(--title-size);
     color: var(--nav-bar-text-color);
     text-transform: capitalize;
 }
-.TitleTwo{
+.title-two{
     font-size: var(--title-size);
     color: var(--nav-bar-text-color);
     text-transform:uppercase;
 }
-.Title{
+.title{
     background-color: var(--background-color-body);
     padding: 15px 10%;
     margin: 0px;
