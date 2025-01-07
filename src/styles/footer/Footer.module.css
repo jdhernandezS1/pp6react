@@ -4,7 +4,11 @@
     padding: 2rem 1rem;
     font-family: Arial, sans-serif;
 }
-
+.footer a {
+    text-decoration: none;
+    color: var(--title-two-color);
+    transition: color 0.3s;
+}
 .footer-container {
     display: flex;
     flex-wrap: wrap;
@@ -64,6 +68,7 @@
 .footer-contact p {
     margin: 0.5rem 0;
 }
+
 
 /* Responsive Design */
 @media (max-width: 768px) {
