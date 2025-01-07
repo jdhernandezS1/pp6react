@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import styles from "../styles/trainer/Trainer.module.css"
 
 const Trainer = () => {
     const [calories, setCalories] = useState(null);
@@ -30,7 +30,7 @@ const Trainer = () => {
     };
 
     return (
-        <div className="trainer-page">
+        <div className={styles["trainer-page"]}>
             <h2>Trainer Page</h2>
 
             <section>
