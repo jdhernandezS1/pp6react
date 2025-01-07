@@ -1,6 +1,8 @@
 .Main {
     min-height: var(--min-size-big-screen);
     background-color: var(--background-color-body);
+    background-image: url("../../statics/banners/trainer.webp");
+    background-size: cover;
     padding: 1px 10%;
 }
 
@@ -17,4 +19,11 @@
         padding: 1px 10% 10% 10%;
     }
 }
+@media screen and (max-width: 600px) {
 
+    .Main {
+        min-height: var(--min-size-normal-screen);
+        background-color: var(--background-color-body);
+        padding: 1px 1% 10% 1%;
+    }
+}
