@@ -1,4 +1,4 @@
-import Style from "../styles/NavBar/navBar.module.css"
+import Style from "../styles/navBar/navBar.module.css"
 import { Link } from "react-router-dom";
 
 const NavBar = () => {
