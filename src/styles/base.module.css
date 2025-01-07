@@ -1,14 +1,20 @@
-:root{
-    --background-color-body:#FFF2D7;
-}
-
-.Main{
+.Main {
     /* width:100%; */
-    min-height: 120vw;
+    min-height: 40vw;
     background-color: var(--background-color-body);
     padding: 1px 10%;
 }
-.Routes{
+
+.Routes {
     margin: 0px auto;
 
+}
+
+@media screen and (max-width: 600px) {
+
+    .Main {
+        min-height: 100vw;
+        background-color: var(--background-color-body);
+        padding: 1px 10%;
+    }
 }

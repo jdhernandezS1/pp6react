@@ -1,34 +1,32 @@
-:root {
-    --pictures-size-normal: 350px;
-    --pictures-size-phone:300px;
-}
 
-.recipeCard {
+
+.recipe-card {
     list-style: none;
     text-align: center;
     width: auto;
 
 }
 
-.recipeCard:hover {
+.recipe-card:hover {
     box-shadow:1px 1px 1px 1px black;
     border-radius: 3%;
 
 }
 
-.recipeCard img {
+.recipe-card img {
     height: fit-content;
     border-radius: 3%;
     width: var(--pictures-size-normal);
 }
 
-.recipeCard a{
+.recipe-card a{
     text-decoration: none;
+    color: var(--title-one-color);
 }
 
 @media screen  and (max-width: 600px){
 
-.recipeCard img {
+.recipe-card img {
     width: var(--pictures-size-phone);
 }
     

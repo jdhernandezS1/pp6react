@@ -1,0 +1,16 @@
+:root {
+
+    /* navBar */
+    --nav-bar-text-color: #000000;
+    --nar-bar-bg-color: #F98866;
+    --title-size:5vw;
+    /* Body */
+    --background-color-body: #FFF2D7;
+    /* Recipes */
+    --pictures-size-normal: 350px;
+    --pictures-size-phone:300px;
+    /* footer */
+    --footer-bg-color: #000000;
+    --title-one-color: #F98866;
+    --title-two-color: #FFF2D7;
+}
