@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import RecipeList from "../components/RecipeList";
 import API_CONFIG from "../utils/config";
-
+import styles from "../styles/recipes/recipes.module.css"
 const Recipes = () => {
   const [recipes, setRecipes] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -30,7 +30,8 @@ const Recipes = () => {
   }, []);
 
   return (
-    <div>
+    <div className={styles["recipes-page"]}>
+      <hr className={styles.banner}/>
       <h1>Recipes</h1>
       {loading && <p>Loading...</p>}
       {error && <p>Error: {error}</p>}

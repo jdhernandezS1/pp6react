@@ -1,0 +1,13 @@
+.banner{
+    background-image:url("../../../statics/banners/kitchen.webp");
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 100px;
+}
+
+.recipes-page {
+    padding: 0px;
+    background-color: var(--background-color-body);
+    margin: auto;
+    padding: 3%;
+}
