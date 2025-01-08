@@ -1,0 +1,7 @@
+.first-section{
+    background-color: var(--background-color-body);
+    padding: 10px;
+}
+.picture{
+    width: 300px;
+}
