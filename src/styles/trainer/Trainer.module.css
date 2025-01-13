@@ -39,3 +39,9 @@ form select {
     background-size: cover;
     height: 100px;
 }
+
+@media screen and (max-width: 600px) {
+    .trainer-page {
+        border-radius: 0%;
+    }
+}

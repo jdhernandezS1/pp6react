@@ -57,6 +57,11 @@
 @media screen and (max-width: 600px) {
 
     .nav-bar {
-        font-size: large;
+        font-size: normal;
+    }
+    .nav-bar nav {
+        background-color: var(--nar-bar-bg-color);
+        padding: 10px 5px;
+        text-align: center;
     }
 }
