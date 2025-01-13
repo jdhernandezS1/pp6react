@@ -1,5 +1,6 @@
 # Fitness Trainer React App 🏋️‍♂️
 
+[Live Site](https://jdhernandezs1.github.io/pp6react/#/)
 ## Description
 The **Fit WORLD React App** is a responsive web application designed to promote fitness and a healthy lifestyle. This app provides users with the tools to calculate daily caloric intake, BMI, and offers a variety of predefined workout routines tailored to different fitness levels and goals.
 
@@ -28,4 +29,4 @@ The **Fit WORLD React App** is a responsive web application designed to promote 
 1. Clone the repository:
    ```bash
    git clone https://github.com/jdhernandezS1/pp6react
-   cd fitness-trainer-app
+   
