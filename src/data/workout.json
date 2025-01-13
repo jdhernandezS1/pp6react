@@ -7,7 +7,7 @@
         { "name": "March in place", "duration": "2 minutes", "reps": null, "image":"https://github.com/jdhernandezS1/pp6react/blob/main/statics/exercises/cardio/marchInPlace.jpg?raw=true"},
         { "name": "Side steps", "duration": "1 minute", "reps": null, "image":"https://github.com/jdhernandezS1/pp6react/blob/main/statics/exercises/cardio/sideSteps.jpg?raw=true" },
         { "name": "High knees", "duration": "30 seconds", "reps": null, "image":"https://github.com/jdhernandezS1/pp6react/blob/main/statics/exercises/cardio/highKnees.jpg?raw=true" },
-        { "name": "Jumping Jacks", "duration": "20 seconds", "reps": null, "image":"https://github.com/jdhernandezS1/pp6react/blob/main/statics/exercises/cardio/jumpingJacks.jpg" }
+        { "name": "Jumping Jacks", "duration": "20 seconds", "reps": null, "image":"https://github.com/jdhernandezS1/pp6react/blob/main/statics/exercises/cardio/jumpingJacks.jpg?raw=true" }
       ]
     },
     {

@@ -17,30 +17,32 @@ const Workouts = () => {
       return Object.keys(routine.muscle_groups).map((group) => (
         <div key={group} className={styles["first-section"]}>
           <h4>{group.charAt(0).toUpperCase() + group.slice(1)}</h4>
-          <ul>
+          <div className={styles["exercises-grid"]}>
             {routine.muscle_groups[group].map((exercise, index) => (
-              <li key={index}>
-                <strong>{exercise.name}</strong>
+              <div className={styles["exercises-card"]} key={index}>
+                <hr />
+                <p><strong>{exercise.name}</strong>
                 {exercise.reps && ` - Reps: ${exercise.reps}`}
                 {exercise.duration && ` - Duration: ${exercise.duration}`}
-                <img src={exercise.image}  alt={exercise.name}></img>
-              </li>
+                </p>                
+                <img className={styles["exercises-picture"]} src={exercise.image}  alt={exercise.name}></img>
+              </div>
             ))}
-          </ul>
+          </div>
         </div>
       ));
     } else {
       return (
-        <ul>
+        <div className={styles["exercises-grid"]}>
           {routine.exercises.map((exercise, index) => (
-            <li key={index}>
+            <div className={styles["exercises-card"]} key={index}>
               <strong>{exercise.name}</strong>
               {exercise.reps && ` - Reps: ${exercise.reps}`}
               {exercise.duration && ` - Duration: ${exercise.duration}`}
-              <img className={styles.picture} src={exercise.image}  alt={exercise.name}></img>
-            </li>
+              <img className={styles["exercises-picture"]} src={exercise.image}  alt={exercise.name}></img>
+            </div>
           ))}
-        </ul>
+        </div>
       );
     }
   };
