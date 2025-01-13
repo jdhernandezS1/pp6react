@@ -4,10 +4,10 @@
       "level": "beginner",
       "type": "cardio",
       "exercises": [
-        { "name": "March in place", "duration": "2 minutes", "reps": null, "image":""},
-        { "name": "Side steps", "duration": "1 minute", "reps": null, "image":"" },
-        { "name": "High knees", "duration": "30 seconds", "reps": null, "image":"" },
-        { "name": "Jumping Jacks", "duration": "20 seconds", "reps": null, "image":"" }
+        { "name": "March in place", "duration": "2 minutes", "reps": null, "image":"https://github.com/jdhernandezS1/pp6react/blob/main/statics/exercises/cardio/marchInPlace.jpg?raw=true"},
+        { "name": "Side steps", "duration": "1 minute", "reps": null, "image":"https://github.com/jdhernandezS1/pp6react/blob/main/statics/exercises/cardio/sideSteps.jpg?raw=true" },
+        { "name": "High knees", "duration": "30 seconds", "reps": null, "image":"https://github.com/jdhernandezS1/pp6react/blob/main/statics/exercises/cardio/highKnees.jpg?raw=true" },
+        { "name": "Jumping Jacks", "duration": "20 seconds", "reps": null, "image":"https://github.com/jdhernandezS1/pp6react/blob/main/statics/exercises/cardio/jumpingJacks.jpg" }
       ]
     },
     {
@@ -15,16 +15,16 @@
       "type": "strength",
       "muscle_groups": {
         "chest": [
-          { "name": "Knee push-ups", "duration": null, "reps": "8-12", "image":"" },
-          { "name": "Wall press", "duration": null, "reps": "10-15", "image":"" }
+          { "name": "Knee push-ups", "duration": null, "reps": "8-12", "image":"https://github.com/jdhernandezS1/pp6react/blob/main/statics/exercises/chest/kneePushUps.jpg?raw=true" },
+          { "name": "Wall press", "duration": null, "reps": "10-15", "image":"https://github.com/jdhernandezS1/pp6react/blob/main/statics/exercises/chest/wallPress.jpg?raw=true" }
         ],
         "legs": [
-          { "name": "Assisted squats", "duration": null, "reps": "8-10", "image":"" },
-          { "name": "Supported lunges", "duration": null, "reps": "5 each leg", "image":"" }
+          { "name": "Assisted squats", "duration": null, "reps": "8-10", "image":"https://github.com/jdhernandezS1/pp6react/blob/main/statics/exercises/legs/assistedSquats.jpg?raw=true" },
+          { "name": "Supported lunges", "duration": null, "reps": "5 each leg", "image":"https://github.com/jdhernandezS1/pp6react/raw/refs/heads/main/statics/exercises/legs/supportedLunges.webp" }
         ],
         "back": [
-          { "name": "Back bridge", "duration": null, "reps": "10-12", "image":"" },
-          { "name": "Superman hold", "duration": "20 seconds", "reps": null, "image":"" }
+          { "name": "Back bridge", "duration": null, "reps": "10-12", "image":"https://github.com/jdhernandezS1/pp6react/raw/refs/heads/main/statics/exercises/back/backBridge.webp" },
+          { "name": "Superman hold", "duration": "20 seconds", "reps": null, "image":"https://github.com/jdhernandezS1/pp6react/raw/refs/heads/main/statics/exercises/back/supermanHold.webp" }
         ]
       }
     },
@@ -32,19 +32,19 @@
       "level": "beginner",
       "type": "flexibility",
       "exercises": [
-        { "name": "Cat/Cow stretch", "duration": "1 minute", "reps": null, "image":"" },
-        { "name": "Shoulder stretch", "duration": "30 seconds per side", "reps": null, "image":"" },
-        { "name": "Hamstring stretch", "duration": "30 seconds", "reps": null, "image":"" }
+        { "name": "Cat/Cow stretch", "duration": "1 minute", "reps": null, "image":"https://github.com/jdhernandezS1/pp6react/blob/main/statics/exercises/flexibility/catCow.jpg?raw=true" },
+        { "name": "Shoulder stretch", "duration": "30 seconds per side", "reps": null, "image":"https://github.com/jdhernandezS1/pp6react/blob/main/statics/exercises/flexibility/shoulderStretch.jpg?raw=true" },
+        { "name": "Hamstring stretch", "duration": "30 seconds", "reps": null, "image":"https://github.com/jdhernandezS1/pp6react/blob/main/statics/exercises/flexibility/harmstringStretch.jpg?raw=true" }
       ]
     },
     {
       "level": "intermediate",
       "type": "cardio",
       "exercises": [
-        { "name": "Modified burpees", "duration": null, "reps": "10-12", "image":"" },
-        { "name": "Scissor jumps", "duration": "1 minute", "reps": null, "image":"" },
-        { "name": "Mountain climbers", "duration": "30 seconds", "reps": null, "image":"" },
-        { "name": "Sprints in place", "duration": "20 seconds", "reps": null, "image":"" }
+        { "name": "Modified burpees", "duration": null, "reps": "10-12", "image":"https://github.com/jdhernandezS1/pp6react/raw/refs/heads/main/statics/exercises/cardio/modifiedBurpees.webp" },
+        { "name": "Scissor jumps", "duration": "1 minute", "reps": null, "image":"https://github.com/jdhernandezS1/pp6react/raw/refs/heads/main/statics/exercises/cardio/scissorsJumps.webp" },
+        { "name": "Mountain climbers", "duration": "30 seconds", "reps": null, "image":"https://github.com/jdhernandezS1/pp6react/blob/main/statics/exercises/cardio/mountainClimbers.jpg?raw=true" },
+        { "name": "Sprints in place", "duration": "20 seconds", "reps": null, "image":"https://github.com/jdhernandezS1/pp6react/blob/main/statics/exercises/cardio/sprintsInPlace.jpg?raw=true" }
       ]
     },
     {
@@ -52,16 +52,16 @@
       "type": "strength",
       "muscle_groups": {
         "chest": [
-          { "name": "Standard push-ups", "duration": null, "reps": "12-15", "image":"" },
-          { "name": "Dumbbell bench press", "duration": null, "reps": "10-12", "image":"" }
+          { "name": "Standard push-ups", "duration": null, "reps": "12-15", "image":"https://github.com/jdhernandezS1/pp6react/blob/main/statics/exercises/chest/standardPushUps.jpeg?raw=true" },
+          { "name": "Dumbbell bench press", "duration": null, "reps": "10-12", "image":"https://github.com/jdhernandezS1/pp6react/raw/refs/heads/main/statics/exercises/chest/dumbbellBenchPress.webp" }
         ],
         "legs": [
-          { "name": "Weighted squats", "duration": null, "reps": "10-12", "image":"" },
-          { "name": "Static lunges", "duration": null, "reps": "12 each leg", "image":"" }
+          { "name": "Weighted squats", "duration": null, "reps": "10-12", "image":"https://github.com/jdhernandezS1/pp6react/blob/main/statics/exercises/legs/wightedSquats.jpg?raw=true" },
+          { "name": "Static lunges", "duration": null, "reps": "12 each leg", "image":"https://github.com/jdhernandezS1/pp6react/blob/main/statics/exercises/legs/staticLunges.jpeg?raw=true" }
         ],
         "back": [
-          { "name": "Dumbbell rows", "duration": null, "reps": "10-12", "image":"" },
-          { "name": "Assisted pull-ups", "duration": null, "reps": "8-10", "image":"" }
+          { "name": "Dumbbell rows", "duration": null, "reps": "10-12", "image":"https://github.com/jdhernandezS1/pp6react/raw/refs/heads/main/statics/exercises/back/dumbellRows.webp" },
+          { "name": "Assisted pull-ups", "duration": null, "reps": "8-10", "image":"https://github.com/jdhernandezS1/pp6react/raw/refs/heads/main/statics/exercises/back/assistedPullUps.webp" }
         ]
       }
     },
@@ -69,36 +69,38 @@
       "level": "intermediate",
       "type": "flexibility",
       "exercises": [
-        { "name": "Downward Dog pose", "duration": "1 minute", "reps": null, "image":"" },
-        { "name": "Lateral trunk stretch", "duration": "30 seconds per side", "reps": null, "image":"" },
-        { "name": "Dynamic hip stretch", "duration": "30 seconds", "reps": null, "image":"" }
+        { "name": "Downward Dog pose", "duration": "1 minute", "reps": null, "image":"https://github.com/jdhernandezS1/pp6react/blob/main/statics/exercises/flexibility/DownwardDogpose.jpeg?raw=true" },
+        { "name": "Lateral trunk stretch", "duration": "30 seconds per side", "reps": null, "image":"https://github.com/jdhernandezS1/pp6react/blob/main/statics/exercises/flexibility/Lateraltrunkstretch.png?raw=true" },
+        { "name": "Dynamic hip stretch", "duration": "30 seconds", "reps": null, "image":"https://github.com/jdhernandezS1/pp6react/blob/main/statics/exercises/flexibility/Dynamichipstretch.png?raw=true" }
       ]
     },
     {
+
       "level": "advanced",
       "type": "cardio",
       "exercises": [
-        { "name": "Full burpees", "duration": null, "reps": "15-20", "image":"" },
-        { "name": "Interval sprints", "duration": "1 minute", "reps": null, "image":"" },
-        { "name": "Plyometric jumps", "duration": "30 seconds", "reps": null, "image":"" },
-        { "name": "Fast mountain climbers", "duration": "40 seconds", "reps": null, "image":"" }
+        { "name": "Full burpees", "duration": null, "reps": "15-20", "image":"https://github.com/jdhernandezS1/pp6react/raw/refs/heads/main/statics/exercises/cardio/Fullburpees.webp" },
+        { "name": "Interval sprints", "duration": "1 minute", "reps": null, "image":"https://github.com/jdhernandezS1/pp6react/blob/main/statics/exercises/cardio/Intervalsprints.png?raw=true" },
+        { "name": "Plyometric jumps", "duration": "30 seconds", "reps": null, "image":"https://github.com/jdhernandezS1/pp6react/blob/main/statics/exercises/cardio/Plyometricjumps.jpg?raw=true" },
+        { "name": "Fast mountain climbers", "duration": "40 seconds", "reps": null, "image":"https://github.com/jdhernandezS1/pp6react/blob/main/statics/exercises/cardio/Fastmountainclimbers.jpg?raw=true" }
       ]
     },
     {
       "level": "advanced",
       "type": "strength",
       "muscle_groups": {
+
         "chest": [
-          { "name": "Clapping push-ups", "duration": null, "reps": "10-12", "image":"" },
-          { "name": "Inclined bench press", "duration": null, "reps": "8-10", "image":"" }
+          { "name": "Clapping push-ups", "duration": null, "reps": "10-12", "image":"https://github.com/jdhernandezS1/pp6react/raw/refs/heads/main/statics/exercises/chest/Clappingpushups.webp" },
+          { "name": "Inclined bench press", "duration": null, "reps": "8-10", "image":"https://github.com/jdhernandezS1/pp6react/blob/main/statics/exercises/chest/Inclinedbenchpress.jpg?raw=true" }
         ],
         "legs": [
-          { "name": "Bulgarian split squats", "duration": null, "reps": "8 each leg", "image":"" },
-          { "name": "Deadlifts", "duration": null, "reps": "10-12", "image":"" }
+          { "name": "Bulgarian split squats", "duration": null, "reps": "8 each leg", "image":"https://github.com/jdhernandezS1/pp6react/raw/refs/heads/main/statics/exercises/legs/Bulgariansplitsquats.webp" },
+          { "name": "Deadlifts", "duration": null, "reps": "10-12", "image":"https://github.com/jdhernandezS1/pp6react/raw/refs/heads/main/statics/exercises/legs/Deadlifts.webp" }
         ],
         "back": [
-          { "name": "Free pull-ups", "duration": null, "reps": "8-10", "image":"" },
-          { "name": "Barbell rows", "duration": null, "reps": "8-12", "image":"" }
+          { "name": "Free pull-ups", "duration": null, "reps": "8-10", "image":"https://github.com/jdhernandezS1/pp6react/blob/main/statics/exercises/back/Freepullups.jpg?raw=true" },
+          { "name": "Barbell rows", "duration": null, "reps": "8-12", "image":"https://github.com/jdhernandezS1/pp6react/blob/main/statics/exercises/back/Barbellrows.jpeg?raw=true" }
         ]
       }
     },
@@ -106,9 +108,9 @@
       "level": "advanced",
       "type": "flexibility",
       "exercises": [
-        { "name": "Warrior pose", "duration": "1 minute each side", "reps": null, "image":"" },
-        { "name": "Standing quad stretch", "duration": "30 seconds per leg", "reps": null, "image":"" },
-        { "name": "Chest opening stretch", "duration": "30 seconds", "reps": null, "image":"" }
+        { "name": "Warrior pose", "duration": "1 minute each side", "reps": null, "image":"https://github.com/jdhernandezS1/pp6react/blob/main/statics/exercises/flexibility/Warriorpose.jpeg?raw=true" },
+        { "name": "Standing quad stretch", "duration": "30 seconds per leg", "reps": null, "image":"https://github.com/jdhernandezS1/pp6react/raw/refs/heads/main/statics/exercises/flexibility/Standingquadstretch.webp" },
+        { "name": "Chest opening stretch", "duration": "30 seconds", "reps": null, "image":"https://github.com/jdhernandezS1/pp6react/blob/main/statics/exercises/flexibility/Chestopeningstretch.jpeg?raw=true" }
       ]
     }
   ]
