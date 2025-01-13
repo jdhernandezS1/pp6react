@@ -20,7 +20,6 @@ const Workouts = () => {
           <div className={styles["exercises-grid"]}>
             {routine.muscle_groups[group].map((exercise, index) => (
               <div className={styles["exercises-card"]} key={index}>
-                <hr />
                 <p><strong>{exercise.name}</strong>
                 {exercise.reps && ` - Reps: ${exercise.reps}`}
                 {exercise.duration && ` - Duration: ${exercise.duration}`}

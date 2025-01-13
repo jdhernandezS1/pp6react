@@ -15,7 +15,10 @@ const NavBar = () => {
                             <Link to="recipes">Recipes</Link>
                         </li>
                         <li>
-                            <Link to="trainer">Trainer</Link>
+                            <Link to="calculator">Trainer</Link>
+                        </li>
+                        <li>
+                            <Link to="workouts">Workouts</Link>
                         </li>
                     </ul>
                 </nav>

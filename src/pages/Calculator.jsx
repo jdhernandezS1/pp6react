@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import styles from "../styles/trainer/Trainer.module.css"
 
-const Trainer = () => {
+const Calculator = () => {
     const [calories, setCalories] = useState(null);
     const [bmi, setBmi] = useState(null);
 
@@ -74,4 +74,4 @@ const Trainer = () => {
     );
 }
 
-export default Trainer;
+export default Calculator;
