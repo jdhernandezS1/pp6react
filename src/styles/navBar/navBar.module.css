@@ -39,7 +39,7 @@
 .nav-bar nav ul li a:hover {
     animation: animate-title 1s ;
     padding: 5px;
-    box-shadow:  2px 2px 2px 2px var(--title-three-color);
+    box-shadow:  2px 2px 0px 0px var(--title-three-color);
 }
 
 .title-one {
