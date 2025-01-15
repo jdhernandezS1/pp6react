@@ -1,29 +1,48 @@
-.first-section{
+.first-section {
     background-color: var(--background-color-body);
     padding: 10px;
 }
 
-.exercises-grid{
+.exercises-grid {
     display: grid;
     text-align: center;
-    grid-template-columns: repeat(auto-fill,  var(--pictures-size-normal));
+    grid-template-columns: repeat(auto-fill, var(--pictures-size-normal));
     gap: 20px;
     padding: 0px;
     justify-content: center;
     align-items: center;
-    margin: auto  0
+    margin: auto 0
 }
 
-.exercises-card{
+.exercises-card {
     align-items: center;
     text-align: center;
     width: 300px;
     height: 300px;
 }
 
-.exercises-picture{
+.exercises-picture {
     width: 250px;
     height: 250px;
+}
+
+.level {
+    margin: 10px;
+    font-size: medium;
+
+}
+
+.options {
+    background-color: var(--title-two-color);
+    color: var(--title-three-color);
+    padding: 10px;
+    border-radius: 5%;
+    font-size: medium;
+}
+
+.options:hover {
+    background-color: var(--title-one-color);
+    color: var(--title-two-color);
 }
 
 @media screen and (max-width: 600px) {
