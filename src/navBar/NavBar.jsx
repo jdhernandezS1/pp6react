@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const NavBar = () => {
     return (
         <>
-            <p className={Style["title"]}><span className={Style["title-one"]}>Fit </span><span className={Style["title-two"]}> | world</span></p>
+            <Link to="/" className={Style["link"]}> <p  className={Style["title"]}><span className={Style["title-one"]}>Fit </span><span className={Style["title-two"]}> | world</span></p></Link>
             <div className={Style["nav-bar"]}>
                 <nav>
                     <ul>

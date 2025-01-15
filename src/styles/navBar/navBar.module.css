@@ -32,8 +32,14 @@
     color: var(--nav-bar-text-color);
 }
 
+.nav-bar nav ul li a:hover::before {
+    width: 105%;
+    /* text-decoration: underline; */
+}
 .nav-bar nav ul li a:hover {
-    text-decoration: underline;
+    animation: animate-title 1s ;
+    padding: 5px;
+    box-shadow:  2px 2px 2px 2px var(--title-three-color);
 }
 
 .title-one {
@@ -52,8 +58,14 @@
     background-color: var(--background-color-body);
     padding: 15px 10%;
     margin: 0px;
+    animation: animate 4s infinite;
 }
-
+.title span{
+    animation: animate-title 4s infinite;
+}
+.link {
+    text-decoration: none;
+}
 @media screen and (max-width: 600px) {
 
     .nav-bar {
@@ -63,5 +75,13 @@
         background-color: var(--nar-bar-bg-color);
         padding: 10px 5px;
         text-align: center;
+    }
+}
+@keyframes animate-title{
+    40%{
+        color: var(--title-one-color);
+    }
+    100%{
+        color: var(--title-three-color);
     }
 }
