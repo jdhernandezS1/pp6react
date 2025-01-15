@@ -7,9 +7,10 @@ const Workouts = () => {
 
 
   return (
-    <div  className={styles["first-section"]}>
+    <div className={styles["first-section"]}>
+      <hr className={styles["banner"]} />
       <h1>Workout Planner</h1>
-      <Exercises/>
+      <Exercises />
     </div>
   );
 };

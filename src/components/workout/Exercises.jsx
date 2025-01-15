@@ -15,27 +15,32 @@ const Exercises = () => {
         <>
 
             <div className={styles["controls"]}>
-                <label htmlFor="level" className={styles["level"]}>Select Level:</label>
-                <select
-                    className={styles["options"]}
-                    value={level}
-                    onChange={(e) => setLevel(e.target.value)}
-                >
-                    <option className={styles["choises"]} value="beginner">Beginner</option>
-                    <option className={styles["choises"]} value="intermediate">Intermediate</option>
-                    <option className={styles["choises"]} value="advanced">Advanced</option>
-                </select>
+                <div>
 
-                <label htmlFor="type" className={styles["level"]}>Select Type:</label>
-                <select
-                    className={styles["options"]}
-                    value={type}
-                    onChange={(e) => setType(e.target.value)}
-                >
-                    <option className={styles["choises"]} value="cardio">Cardio</option>
-                    <option className={styles["choises"]} value="strength">Strength</option>
-                    <option className={styles["choises"]} value="flexibility">Flexibility</option>
-                </select>
+                    <label htmlFor="level" className={styles["level"]}>Select Level:</label>
+                    <select
+                        className={styles["options"]}
+                        value={level}
+                        onChange={(e) => setLevel(e.target.value)}
+                    >
+                        <option className={styles["choises"]} value="beginner">Beginner</option>
+                        <option className={styles["choises"]} value="intermediate">Intermediate</option>
+                        <option className={styles["choises"]} value="advanced">Advanced</option>
+                    </select>
+                </div>
+                <div>
+
+                    <label htmlFor="type" className={styles["level"]}>Select Type:</label>
+                    <select
+                        className={styles["options"]}
+                        value={type}
+                        onChange={(e) => setType(e.target.value)}
+                    >
+                        <option className={styles["choises"]} value="cardio">Cardio</option>
+                        <option className={styles["choises"]} value="strength">Strength</option>
+                        <option className={styles["choises"]} value="flexibility">Flexibility</option>
+                    </select>
+                </div>
             </div>
 
             <div className="routine-list">

@@ -31,20 +31,36 @@
     font-size: medium;
 
 }
+.controls{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, var(--pictures-size-normal));
+    width: 100%;
+    text-align: center;
+    gap: 20px;
+    justify-content: center;
 
+}
 .options {
     background-color: var(--title-two-color);
     color: var(--title-three-color);
     padding: 10px;
     border-radius: 5%;
     font-size: medium;
+    border: 0px;
+    box-shadow: 3px 3px 2px 2px var(--title-three-color);
 }
 
 .options:hover {
-    background-color: var(--title-one-color);
-    color: var(--title-two-color);
+    box-shadow: 5px 5px var(--title-one-color);
+    color: var(--title-one-color);
+    padding: 10px;
+    border: 0px;
 }
-
+.banner{
+    background-image:url("../../../statics/banners/trainer.webp");
+    background-size: cover;
+    height: 100px;
+}
 @media screen and (max-width: 600px) {
     .exercises-grid {
         grid-template-columns: repeat(auto-fill, var(--pictures-size-phone));
