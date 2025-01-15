@@ -5,7 +5,7 @@
 
 .exercises-grid{
     display: grid;
-    grid-template-columns: repeat(auto-fill, 300px);
+    grid-template-columns: repeat(auto-fill,  --pictures-size-normal);
     gap: 20px;
     padding: 0px;
     justify-content: center;
@@ -23,4 +23,10 @@
 .exercises-picture{
     width: 250px;
     height: 250px;
+}
+
+@media screen and (max-width: 600px) {
+    .exercises-grid {
+        grid-template-columns: repeat(auto-fill, --pictures-size-phone);
+    }
 }

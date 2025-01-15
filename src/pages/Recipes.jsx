@@ -8,7 +8,7 @@ const Recipes = () => {
   const [error, setError] = useState(null);
 
   const fetchRecipes = async () => {
-    const API_URL = `${API_CONFIG.BASE_URL}/recipes/random?apiKey=${API_CONFIG.API_KEY}&number=10`;
+    const API_URL = `${API_CONFIG.BASE_URL}/recipes/random?apiKey=${API_CONFIG.API_KEY}&tags=vegan%vegetarian&number=9`;
     
     try {
       const response = await fetch(API_URL);
