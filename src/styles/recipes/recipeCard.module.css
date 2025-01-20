@@ -8,8 +8,9 @@
 }
 
 .recipe-card:hover {
-    box-shadow:1px 1px 1px 1px black;
+    /* box-shadow:0px 0px 1px 10px black; */
     border-radius: 3%;
+    animation: animate-hover 2s infinite;
 
 }
 
@@ -30,4 +31,14 @@
     width: var(--pictures-size-phone);
 }
     
+}
+
+@keyframes animate-hover {
+    40% {
+            box-shadow:0px 0px 5px 10px var(--title-one-color);        
+    }
+
+    100% {
+            box-shadow:0px 0px 0px 0px var(--title-one-color);
+    }
 }
