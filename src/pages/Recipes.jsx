@@ -32,7 +32,7 @@ const Recipes = () => {
   return (
     <div className={styles["recipes-page"]}>
       <hr className={styles.banner}/>
-      <h1>Recipes</h1>
+      <h1>Vegetarian Recipes</h1>
       {loading && <p>Loading...</p>}
       {error && <p>Error: {error}</p>}
       {!loading && !error && <RecipeList recipes={recipes}/>}

@@ -6,8 +6,9 @@ const RecipeCard = ({ recipe }) => {
     return (
         <div className={styles["recipe-card"]}>
             <a href={recipe.sourceUrl} target="blank">
-            <h3>{recipe.title}</h3>
             <img src={recipe.image} alt={recipe.title} />
+            <p>{recipe.title}</p>
+            <p className={styles["recipe-price"]}>Price per serving: {recipe.pricePerServing}</p> <p className={styles["recipe-minutes"]}>readyInMinutes: {recipe.readyInMinutes}</p>
             </a>
         </div>
     );

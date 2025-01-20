@@ -3,6 +3,11 @@
     --nav-bar-text-color: #000000;
     --nar-bar-bg-color: #F98866;
     --title-size:5vw;
+    /* COLORS */
+    --color-one: #f988665d;
+    --color-two: #FFF2D7;
+    --color-three: #000000;
+
     /* Body */
     --background-color-body: #FFF2D7;
     --min-size-big-screen:40vw;
@@ -10,7 +15,7 @@
     --min-size-phone-screen:100vw;
     /* Recipes */
     --pictures-size-normal: 350px;
-    --pictures-size-phone:300px;
+    --pictures-size-phone:350px;
     /* footer */
     --footer-bg-color: #000000;
     --title-one-color: #F98866;

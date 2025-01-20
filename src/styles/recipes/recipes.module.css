@@ -11,3 +11,11 @@
     margin: auto;
     padding: 3%;
 }
+
+
+@media screen and (max-width: 600px) {
+    .recipes-page {
+        text-align: center;
+        padding: 0px;
+    }
+}

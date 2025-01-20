@@ -1,9 +1,12 @@
-
+.recipe-minutes, .recipe-price{
+    color:black;
+}
 
 .recipe-card {
     list-style: none;
     text-align: center;
     width: auto;
+    box-shadow:0px 0px 5px 10px var(--color-one);        
 
 }
 

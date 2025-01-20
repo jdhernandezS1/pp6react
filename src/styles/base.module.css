@@ -26,6 +26,6 @@
     .Main {
         min-height: var(--min-size-normal-screen);
         background-color: var(--background-color-body);
-        padding: 1px 1% 10% 1%;
+        padding: 0px;
     }
 }
