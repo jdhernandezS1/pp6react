@@ -43,7 +43,7 @@ const Exercises = () => {
                 </div>
             </div>
 
-            <div className="routine-list">
+            <div className={styles["routine-list"]}>
                 {filteredWorkouts.length > 0 ? (
                     filteredWorkouts.map((routine, index) => (
                         <div key={index} className="routine">

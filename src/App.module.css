@@ -16,4 +16,9 @@
     --title-one-color: #F98866;
     --title-two-color: #FFF2D7;
     --title-three-color:#000000;
+    /* WORKOUT */
+    --excercises-card-width: 320px;
+    --excercises-card-height: 300px;
+    --excercises-img-height: 280px;
+    --excercises-img-width: 300px;
 }
