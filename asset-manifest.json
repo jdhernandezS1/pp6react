@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/pp6react/static/css/main.774c40a5.css",
-    "main.js": "/pp6react/static/js/main.2898983a.js",
+    "main.css": "/pp6react/static/css/main.ae0d5913.css",
+    "main.js": "/pp6react/static/js/main.bde9959f.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/pp6react/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/trainer.webp": "/pp6react/static/media/trainer.803188fc309ed0c6d3be.webp",
     "static/media/kitchen.webp": "/pp6react/static/media/kitchen.fa99db0d65b62e0bca59.webp",
@@ -10,11 +10,11 @@
     "static/media/fontawesome-webfont.woff?v=4.7.0": "/pp6react/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/pp6react/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "index.html": "/pp6react/index.html",
-    "main.774c40a5.css.map": "/pp6react/static/css/main.774c40a5.css.map",
-    "main.2898983a.js.map": "/pp6react/static/js/main.2898983a.js.map"
+    "main.ae0d5913.css.map": "/pp6react/static/css/main.ae0d5913.css.map",
+    "main.bde9959f.js.map": "/pp6react/static/js/main.bde9959f.js.map"
   },
   "entrypoints": [
-    "static/css/main.774c40a5.css",
-    "static/js/main.2898983a.js"
+    "static/css/main.ae0d5913.css",
+    "static/js/main.bde9959f.js"
   ]
 }
