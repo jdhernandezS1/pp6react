@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import RecipeList from "../components/RecipeList";
+import RecipeList from "../components/recipes/RecipeList";
 import API_CONFIG from "../utils/config";
 import styles from "../styles/recipes/recipes.module.css"
 const Recipes = () => {

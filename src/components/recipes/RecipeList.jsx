@@ -1,6 +1,6 @@
 import React from "react";
 import RecipeCard from "./RecipeCard";
-import style  from "../styles/recipes/recipeGrid.module.css"
+import style  from "../../styles/recipes/recipeGrid.module.css"
 
 const RecipeList = ({ recipes }) => {
   return (

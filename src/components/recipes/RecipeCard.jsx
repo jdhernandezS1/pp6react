@@ -1,5 +1,5 @@
 import React from "react";
-import styles from '../styles/recipes/recipeCard.module.css'; // Import css modules stylesheet as styles
+import styles from '../../styles/recipes/recipeCard.module.css'; // Import css modules stylesheet as styles
 
 
 const RecipeCard = ({ recipe }) => {
