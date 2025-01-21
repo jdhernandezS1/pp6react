@@ -6,6 +6,7 @@
     /* COLORS */
     --color-one: #f988665d;
     --color-two: #FFF2D7;
+    --color-two-dark: #ffdb90;
     --color-three: #000000;
 
     /* Body */
@@ -26,4 +27,8 @@
     --excercises-card-height: 300px;
     --excercises-img-height: 280px;
     --excercises-img-width: 300px;
+    /* PROGRAMS */
+    --programs-img-width:270px;
+    --programs-img-height:180px;
+    --programs-card-height:400px
 }

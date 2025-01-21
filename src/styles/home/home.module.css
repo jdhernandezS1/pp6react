@@ -1,28 +1,74 @@
-.home-title{
+.home-title {
     color: var(--title-three-color);
-    background-color:transparent;
-    
+    background-color: transparent;
+    font-size: xx-large;
 }
-.first-section{ 
-    text-align: center;
+
+.home-text {
+    width: 50%;
+}
+
+.first-section {
+    text-align: left;
     padding: 50px;
     background-color: var(--background-color-body);
 }
 
-.home-video{
-    width:560px; 
-    height:315px;
+.programs {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+
+.programs-main-title {
+    font-size: xx-large;
+    text-align: center;
+}
+
+.programs-grid {
+    display: grid;
+    text-align: left;
+    grid-template-columns: repeat(auto-fill, var(--programs-img-width));
+    gap: 20px;
+    padding: 0px;
+    justify-content: center;
+    align-items: center;
+    margin: auto 0
+}
+
+.programs-card {
+    border-radius: 15%;
+    border: solid 1px var(--color-two-dark);
+    background-color: var(--color-two-dark);
+    width: var(--programs-img-width);
+    height: var(--programs-card-height);
+}
+
+.programs-info {
+    padding: 20px;
+}
+
+.programs-img {
+    width: var(--programs-img-width);
+    height: var(--programs-img-height);
+}
+
+.home-video {
+    width: 560px;
+    height: 315px;
     border-radius: 3%;
 }
+
 @media screen and (max-width: 600px) {
 
-    .first-section{ 
+    .first-section {
         padding: 5px;
     }
 }
+
 @media screen and (max-width: 900px) {
-    .home-video{
-        width:300px; 
-        height:300px;
+    .home-video {
+        width: 300px;
+        height: 300px;
     }
 }
