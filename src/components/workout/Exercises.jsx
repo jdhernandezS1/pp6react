@@ -15,14 +15,13 @@ const Exercises = () => {
         <>
 
             <div className={styles["controls"]}>
-                <div>
+                <div >
 
                     <label htmlFor="level" className={styles["level"]}>Select Level:</label>
                     <select
                         className={styles["options"]}
                         value={level}
-                        onChange={(e) => setLevel(e.target.value)}
-                    >
+                        onChange={(e) => setLevel(e.target.value)}>
                         <option className={styles["choises"]} value="beginner">Beginner</option>
                         <option className={styles["choises"]} value="intermediate">Intermediate</option>
                         <option className={styles["choises"]} value="advanced">Advanced</option>

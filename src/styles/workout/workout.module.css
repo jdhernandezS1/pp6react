@@ -42,6 +42,10 @@
     justify-content: center;
 
 }
+.controls div{
+    width: fit-content;
+    margin: auto;
+}
 .options {
     background-color: var(--title-two-color);
     color: var(--title-three-color);

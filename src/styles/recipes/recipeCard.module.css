@@ -34,6 +34,11 @@
     width: var(--pictures-size-phone);
 }
     
+.recipe-card {
+    width: var(--pictures-size-phone);
+    margin: auto;
+}
+    
 }
 
 @keyframes animate-hover {
