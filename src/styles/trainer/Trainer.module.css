@@ -5,7 +5,17 @@
     border-radius: 3%;
     padding: 3%;
 }
-
+.trainer-calculator{
+    display: flex;
+}
+.trainer-title{
+    width: 100%;
+    margin: auto;
+}
+.trainer-page section{
+    width: 40%;
+    margin: auto;
+}
 .trainer-page form {
     display: flex;
     flex-direction: column;
@@ -43,5 +53,11 @@ form select {
 @media screen and (max-width: 600px) {
     .trainer-page {
         border-radius: 0%;
+    }
+    .trainer-calculator{
+        display:block;
+    }
+    .trainer-page section{
+        width: 100%;
     }
 }

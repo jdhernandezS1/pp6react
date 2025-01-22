@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import styles from "../styles/trainer/Trainer.module.css"
+import { faFire, faCalculator } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Calculator = () => {
     const [calories, setCalories] = useState(null);
@@ -21,55 +23,73 @@ const Calculator = () => {
 
     const calculateBMI = (e) => {
         e.preventDefault();
-        const { weight, height, goal } = e.target.elements;
+        const { weight, height } = e.target.elements;
         const bmi = weight.value / ((height.value / 100) ** 2);
         setBmi({
             value: bmi.toFixed(2),
-            goal,
         });
     };
 
     return (
         <div className={styles["trainer-page"]}>
-            <hr className={styles.banner}/>
-            <h2>Trainer Page</h2>
+            <div className={styles["trainer-title"]} >
+                <hr className={styles.banner} />
+                <h2>Trainer Page</h2>
+            </div>
+            <div className={styles["trainer-calculator"]} >
 
-            <section>
-                <h3>Calculate Daily Calories</h3>
-                <form onSubmit={calculateCalories}>
-                    <input type="number" name="age" placeholder="Age (Years)" required />
-                    <input type="number" name="weight" placeholder="Weight (kg)" required />
-                    <input type="number" name="height" placeholder="Height(cm)" required />
-                    <input type="number" name="neck" placeholder="Neck (cm)" />
-                    <input type="number" name="waist" placeholder="Waist  (cm)" />
-                    <input type="number" name="hips" placeholder="Hips (cm)" />
-                    <select name="gender">
-                        <option value="male">Man</option>
-                        <option value="female">Woman</option>
-                    </select>
-                    <button type="submit">Calculate</button>
-                </form>
-                {calories && <p>Daily Calories: {calories} kcal</p>}
-            </section>
+                <section>
+                    <h3> <FontAwesomeIcon icon={faFire} /> Calculate Daily Calories</h3>
+                    <form onSubmit={calculateCalories}>
+                        <input type="number" name="age" placeholder="Age (Years)" required />
+                        <input type="number" name="weight" placeholder="Weight (kg)" required />
+                        <input type="number" name="height" placeholder="Height(cm)" required />
+                        <input type="number" name="neck" placeholder="Neck (cm)" />
+                        <input type="number" name="waist" placeholder="Waist  (cm)" />
+                        <input type="number" name="hips" placeholder="Hips (cm)" />
+                        <select name="gender">
+                            <option value="male">Man</option>
+                            <option value="female">Woman</option>
+                        </select>
+                        <button type="submit">Calculate</button>
+                    </form>
+                    {calories && <p>Daily Calories: {calories} kcal</p>}
+                </section>
 
-            <section>
-                <h3>calculate BMI</h3>
-                <form onSubmit={calculateBMI}>
-                    <input type="number" name="weight" placeholder="Weight (kg)" required />
-                    <input type="number" name="height" placeholder="height (cm)" required />
-                    <select name="goal">
-                        <option value="lose">Lose Weight</option>
-                        <option value="maintain">Mantain Weight</option>
-                        <option value="gain">Gain Weight</option>
-                    </select>
-                    <button type="submit">Calculate</button>
-                </form>
-                {bmi && (
-                    <p>
-                        Your BMI es {bmi.value}. Goal: {bmi.goal}.
-                    </p>
-                )}
-            </section>
+                <section>
+                    <h3><FontAwesomeIcon icon={faCalculator} /> Calculate BMI</h3>
+                    <form onSubmit={calculateBMI}>
+                        <input type="number" name="weight" placeholder="Weight (kg)" required />
+                        <input type="number" name="height" placeholder="height (cm)" required />
+                        <button type="submit">Calculate</button>
+                    </form>
+                    {bmi && (
+                        <div>
+                            <p>Your BMI es {bmi.value}</p>
+                            <h3>
+                                BMI Categories:
+                            </h3>
+                            <p>
+                                Underweight: less than 18.5
+                            </p>
+                            <p>
+                                Normal weight: 18.5 - 24.9
+                            </p>
+                            <p>
+                                Overweight: 25 - 29.9
+                            </p>
+                            <p>
+                                Obesity: more than 30
+
+                            </p>
+
+
+
+
+                        </div>
+                    )}
+                </section>
+            </div>
         </div>
     );
 }
