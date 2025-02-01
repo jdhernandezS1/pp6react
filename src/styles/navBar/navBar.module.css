@@ -79,6 +79,7 @@
 
     .nav-bar {
         font-size: normal;
+        background-color: var(--color-one);
     }
 
     .nav-bar nav {
@@ -137,6 +138,8 @@
     .nav-bar li {
         padding: 10px;
         text-align: center;
+        width: fit-content;
+        margin: auto;
     }
 
     .nav-bar li a {

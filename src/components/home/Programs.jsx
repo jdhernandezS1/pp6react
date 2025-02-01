@@ -1,7 +1,8 @@
 import React from "react";
 import styles from "../../styles/home/home.module.css"
 import { Link } from "react-router-dom";
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCircleInfo } from "@fortawesome/free-solid-svg-icons";
 const Programs = () => {
     return (
         <div className={styles["programs"]}>
@@ -12,7 +13,7 @@ const Programs = () => {
                     <div className={styles["programs-info"]} >
                     <strong className={styles["programs-title"]}> <p>Strength Training</p></strong>
                     <p className={styles["programs-text"]}> Build muslce and increase strenght with our comprehensive program.</p>
-                    <Link to="/workouts" >Learn More</Link>
+                    <Link to="/workouts" ><FontAwesomeIcon icon={faCircleInfo} /> Learn More</Link>
                     </div>
                 </div>
                 <div className={styles["programs-card"]}>
@@ -20,7 +21,7 @@ const Programs = () => {
                     <div className={styles["programs-info"]} >
                     <strong className={styles["programs-title"]}> <p>Cardio Blast</p></strong>
                     <p className={styles["programs-text"]}> High-intensity workouts to improve endurance and burn fat.</p>
-                    <Link to="/workouts" >Learn More</Link>
+                    <Link to="/workouts" > <FontAwesomeIcon icon={faCircleInfo} /> Learn More</Link>
                     </div>
                 </div>
                 <div className={styles["programs-card"]}>
@@ -28,7 +29,7 @@ const Programs = () => {
                     <div className={styles["programs-info"]} >
                     <strong className={styles["programs-title"]}> <p>Flexibility Flow</p></strong>
                     <p className={styles["programs-text"]}> Find balance and flexibility through sessions.</p>
-                    <Link to="/workouts" >Learn More</Link>
+                    <Link to="/workouts" ><FontAwesomeIcon icon={faCircleInfo} /> Learn More</Link>
                     </div>
                 </div>
             </div>
