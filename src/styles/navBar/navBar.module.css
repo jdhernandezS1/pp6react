@@ -8,13 +8,13 @@
 }
 
 .nav-bar h1 {
-    /* background-color: var(--background-color-body); */
+    /* background-color: var(--color-two); */
     margin: 0px auto;
     padding: 10px 0px;
 }
 
 .nav-bar nav {
-    background-color: var(--nar-bar-bg-color);
+    background-color: var(--color-one);
     padding: 10px 10%;
 }
 
@@ -34,7 +34,7 @@
 
 .nav-bar nav ul li a {
     text-decoration: none;
-    color: var(--nav-bar-text-color);
+    color: var(--color-three);
 }
 
 .nav-bar nav ul li a:hover::before {
@@ -45,23 +45,23 @@
 .nav-bar nav ul li a:hover {
     animation: animate-title 1s;
     padding: 5px;
-    box-shadow: 2px 2px 0px 0px var(--title-two-color);
+    box-shadow: 2px 2px 0px 0px var(--color-two);
 }
 
 .title-one {
     font-size: var(--title-size);
-    color: var(--nav-bar-text-color);
+    color: var(--color-three);
     text-transform: capitalize;
 }
 
 .title-two {
     font-size: var(--title-size);
-    color: var(--nav-bar-text-color);
+    color: var(--color-three);
     text-transform: uppercase;
 }
 
 .title {
-    background-color: var(--background-color-body);
+    background-color: var(--color-two);
     padding: 15px 10%;
     margin: 0px;
     animation: animate 4s;
@@ -82,14 +82,14 @@
     }
 
     .nav-bar nav {
-        background-color: var(--nar-bar-bg-color);
+        background-color: var(--color-one);
         padding: 10px 5px;
         text-align: center;
     }
 
     .nav-bar-pc {
         display: none;
-        background-color: var(--nar-bar-bg-color);
+        background-color: var(--color-one);
 
     }
 
@@ -103,7 +103,7 @@
     }
 
     .title {
-        background-color: var(--nar-bar-bg-color);
+        background-color: var(--color-one);
         padding: 15px 0px;
         margin: 0px;
         animation: animate 4s;
@@ -117,7 +117,7 @@
         justify-content: space-around;
         align-items: center;
         padding: 10px;
-        background-color: var(--nar-bar-bg-color);
+        background-color: var(--color-one);
 
     }
 
@@ -153,10 +153,10 @@
 
 @keyframes animate-title {
     40% {
-        color: var(--title-one-color);
+        color: var(--color-one);
     }
 
     100% {
-        color: var(--title-three-color);
+        color: var(--color-three);
     }
 }

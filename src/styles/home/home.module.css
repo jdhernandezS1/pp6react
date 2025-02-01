@@ -1,5 +1,5 @@
 .home-title {
-    color: var(--title-three-color);
+    color: var(--color-three);
     background-color: transparent;
     font-size: xx-large;
 }
@@ -11,7 +11,7 @@
 .first-section {
     text-align: left;
     padding: 50px;
-    background-color: var(--background-color-body);
+    background-color: var(--color-two);
 }
 
 .programs {

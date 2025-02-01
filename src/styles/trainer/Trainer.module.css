@@ -1,6 +1,6 @@
 .trainer-page {
     padding: 0px;
-    background-color: var(--background-color-body);
+    background-color: var(--color-two);
     margin: auto;
     border-radius: 3%;
     padding: 3%;
@@ -33,15 +33,15 @@ form select {
 .trainer-page form button {
     padding: 10px;
     font-size: 1rem;
-    background-color: var(--title-one-color);
-    color: var(--title-two-color);
+    background-color: var(--color-one);
+    color: var(--color-two);
     border: none;
     border-radius: 4px;
     cursor: pointer;
 }
 
 .trainer-page form button:hover {
-    background-color: var(--title-one-color);
+    background-color: var(--color-one);
 }
 
 .banner{

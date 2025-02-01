@@ -1,5 +1,5 @@
 .first-section {
-    background-color: var(--background-color-body);
+    background-color: var(--color-two);
     padding: 10px;
 }
 
@@ -47,18 +47,18 @@
     margin: auto;
 }
 .options {
-    background-color: var(--title-two-color);
-    color: var(--title-three-color);
+    background-color: var(--color-two);
+    color: var(--color-three);
     padding: 10px;
     border-radius: 5%;
     font-size: medium;
     border: 0px;
-    box-shadow: 3px 3px 2px 2px var(--title-three-color);
+    box-shadow: 3px 3px 2px 2px var(--color-three);
 }
 
 .options:hover {
-    box-shadow: 5px 5px var(--title-one-color);
-    color: var(--title-one-color);
+    box-shadow: 5px 5px var(--color-one);
+    color: var(--color-one);
     padding: 10px;
     border: 0px;
 }

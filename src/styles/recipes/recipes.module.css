@@ -7,7 +7,7 @@
 
 .recipes-page {
     padding: 0px;
-    background-color: var(--background-color-body);
+    background-color: var(--color-two);
     margin: auto;
     padding: 3%;
 }

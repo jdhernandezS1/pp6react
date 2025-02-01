@@ -1,34 +1,28 @@
 :root {
     /* navBar */
-    --nav-bar-text-color: #000000;
-    --nar-bar-bg-color: #F98866;
-    --title-size:5vw;
+    --title-size: 5vw;
     /* COLORS */
-    --color-one: #f988665d;
+    --color-one:#F98866;
+    --color-one-transparent: #f988665d;
     --color-two: #FFF2D7;
     --color-two-dark: #ffdb90;
     --color-three: #000000;
 
     /* Body */
-    --background-color-body: #FFF2D7;
-    --min-size-big-screen:40vw;
-    --min-size-normal-screen:50vw;
-    --min-size-phone-screen:100vw;
+    --min-size-big-screen: 40vw;
+    --min-size-normal-screen: 50vw;
+    --min-size-phone-screen: 100vw;
     /* Recipes */
     --pictures-size-normal: 350px;
-    --pictures-size-phone:320px;
+    --pictures-size-phone: 320px;
     /* footer */
-    --footer-bg-color: #000000;
-    --title-one-color: #F98866;
-    --title-two-color: #FFF2D7;
-    --title-three-color:#000000;
     /* WORKOUT */
     --excercises-card-width: 320px;
     --excercises-card-height: 300px;
     --excercises-img-height: 280px;
     --excercises-img-width: 300px;
     /* PROGRAMS */
-    --programs-img-width:270px;
-    --programs-img-height:180px;
-    --programs-card-height:400px
+    --programs-img-width: 270px;
+    --programs-img-height: 180px;
+    --programs-card-height: 400px
 }

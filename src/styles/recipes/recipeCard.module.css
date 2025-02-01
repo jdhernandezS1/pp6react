@@ -1,12 +1,13 @@
-.recipe-minutes, .recipe-price{
-    color:black;
+.recipe-minutes,
+.recipe-price {
+    color: black;
 }
 
 .recipe-card {
     list-style: none;
     text-align: center;
     width: auto;
-    box-shadow:0px 0px 5px 10px var(--color-one);        
+    box-shadow: 0px 0px 5px 10px var(--color-one-transparent);
 
 }
 
@@ -23,30 +24,30 @@
     width: var(--pictures-size-normal);
 }
 
-.recipe-card a{
+.recipe-card a {
     text-decoration: none;
-    color: var(--title-one-color);
+    color: var(--color-one);
 }
 
-@media screen  and (max-width: 600px){
+@media screen and (max-width: 600px) {
 
-.recipe-card img {
-    width: var(--pictures-size-phone);
-}
-    
-.recipe-card {
-    width: var(--pictures-size-phone);
-    margin: auto;
-}
-    
+    .recipe-card img {
+        width: var(--pictures-size-phone);
+    }
+
+    .recipe-card {
+        width: var(--pictures-size-phone);
+        margin: auto;
+    }
+
 }
 
 @keyframes animate-hover {
     40% {
-            box-shadow:0px 0px 5px 10px var(--title-one-color);        
+        box-shadow: 0px 0px 5px 10px var(--color-one);
     }
 
     100% {
-            box-shadow:0px 0px 0px 0px var(--title-one-color);
+        box-shadow: 0px 0px 0px 0px var(--color-one);
     }
 }
