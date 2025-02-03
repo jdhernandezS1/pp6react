@@ -1,15 +1,15 @@
 .recipes-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, var(--pictures-size-normal));
+    grid-template-columns: repeat(auto-fit, minmax(var(--pictures-size-normal), 1fr));
     gap: 40px;
     padding: 10px;
     justify-content: center;
-    margin: 100px 0
+    margin: 100px 0;
 }
 
 
 @media screen and (max-width: 600px) {
     .recipes-grid {
-        grid-template-columns: repeat(auto-fill, --pictures-size-phone);
+        grid-template-columns: repeat(auto-fit, minmax(var(--pictures-size-phone), 1fr));
     }
 }

@@ -17,7 +17,7 @@ const Recipes = () => {
       }
       const data = await response.json();
       setRecipes(data["recipes"]);
-      console.log(data["recipes"]);
+      // console.log(data["recipes"]);
     } catch (err) {
       setError(err.message);
     } finally {
