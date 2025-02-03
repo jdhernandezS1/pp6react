@@ -2,11 +2,11 @@
     /* navBar */
     --title-size: 5vw;
     /* COLORS */
-    --color-one:#F98866;
-    --color-one-transparent: #f988665d;
-    --color-two: #FFF2D7;
-    --color-two-dark: #ffdb90;
-    --color-three: #000000;
+    --color-one:#EFB036;
+    --color-one-transparent: #efb1368c;
+    --color-two: #4C7B8B;
+    --color-two-dark: rgba(56, 116, 120, 0.514);
+    --color-three: #23486A;
 
     /* Body */
     --min-size-big-screen: 40vw;
@@ -17,10 +17,10 @@
     --pictures-size-phone: 250px;
     /* footer */
     /* WORKOUT */
-    --excercises-card-width: 320px;
+    --excercises-card-width: 280px;
     --excercises-card-height: 300px;
-    --excercises-img-height: 280px;
-    --excercises-img-width: 300px;
+    --excercises-img-height: 250px;
+    --excercises-img-width: 250px;
     /* PROGRAMS */
     --programs-img-width: 270px;
     --programs-img-height: 180px;

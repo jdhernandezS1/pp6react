@@ -34,7 +34,7 @@
 
 .nav-bar nav ul li a {
     text-decoration: none;
-    color: var(--color-three);
+    color: var(--color-two);
 }
 
 .nav-bar nav ul li a:hover::before {
